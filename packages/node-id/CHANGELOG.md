@@ -1,5 +1,17 @@
 # @udecode/plate-node-id
 
+## 5.3.6
+
+### Patch Changes
+
+- [#1150](https://github.com/udecode/plate/pull/1150) [`8e7ece4c`](https://github.com/udecode/plate/commit/8e7ece4ceb48d5715e9a6c33fb6fb9b1f1e2b9f0) Thanks [@jeffsee55](https://github.com/jeffsee55)! - Fixes dependencie issue for React<17 users by using the classic `React.createElement` function rather than the newer `jsx-runtime` transform.
+
+  Per babel docs: https://babeljs.io/docs/en/babel-preset-react#with-a-configuration-file-recommended
+
+- Updated dependencies [[`8e7ece4c`](https://github.com/udecode/plate/commit/8e7ece4ceb48d5715e9a6c33fb6fb9b1f1e2b9f0)]:
+  - @udecode/plate-common@5.3.6
+  - @udecode/plate-core@5.3.6
+
 ## 5.3.5
 
 ### Patch Changes
